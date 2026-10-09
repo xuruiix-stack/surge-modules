@@ -1,0 +1,6 @@
+#!name=Telegram Routing
+#!desc=Route Telegram traffic to US Fixed IP (fallback). Immune to subscription rewrites.
+[Rule]
+DOMAIN-SUFFIX,telegram.org,US Fixed IP
+DOMAIN-SUFFIX,telegram.me,US Fixed IP
+DOMAIN-KEYWORD,telegram,US Fixed IP
